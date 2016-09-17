@@ -153,6 +153,8 @@ var searchStudents = function() {
 
 /*--- event functions end ---*/
 
+//Add the search inputs and text html to the DOM
+$('.student-search').append('<input placeholder="Search for students..."><button>Search</button>');
 
 //add event to button and input
 $('.student-search button').click(searchStudents);
