@@ -109,7 +109,7 @@ function hideStudents(callBack) {
 /*--- event functions ---*/
 
 //Function that hides/shows students per button press
-var buttonIndexChange = function() {
+var buttonIndexChange = function( event ) {
     //Stop the default behavior of the buttons (so that we can see the nice animations)
     event.preventDefault();
     //Calculate the start index and end index
